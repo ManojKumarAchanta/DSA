@@ -7,5 +7,12 @@ public class Output {
         System.out.println(new int[] {1,2,3,4,5});
         String name = null;
         System.out.println(name);
+        String series = "";
+        for(int i=0;i<26;i++){
+            char ch = (char)('a'+i);
+            System.out.println(ch);
+            series += ch;
+        }
+        System.out.println(series);
     }
 }
