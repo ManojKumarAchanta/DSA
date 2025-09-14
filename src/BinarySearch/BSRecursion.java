@@ -17,7 +17,7 @@ public class BSRecursion {
         }
     }
 
-    static int augmentedBinarySearch(int[] nums, int start, int end, int target){
+    public static int augmentedBinarySearch(int[] nums, int start, int end, int target){
         if(start > end){
             return -1;
         }
