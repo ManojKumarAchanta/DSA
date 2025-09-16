@@ -54,5 +54,6 @@ public class WildcardExample<T extends Number> {
         }
         System.out.println(list);
         System.out.println(list.size());
+
     }
 }
